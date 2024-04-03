@@ -16,5 +16,7 @@ newArr.sort((a, b) => b.age - a.age);
 console.log(newArr);
 
 //6-3번
-newArr = newArr.part.toUpperCase();
-console.log(newArr);
+upperArr = newArr.map((value) => {
+  return { ...value, part: value.part.toUpperCase() };
+});
+console.log(upperArr);
