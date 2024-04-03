@@ -5,7 +5,14 @@ let user = {
   years: 24,
 };
 
-// 아래에 코드를 작성해주세요 ~
+// const { name, years, bb } = user;
+
+let { name: Name, years: age, isAdmin } = user;
+
+// let isAdmin = null;
+if (isAdmin === undefined) {
+  isAdmin = false;
+}
 
 alert(Name); // "지환"
 alert(age); // 24
