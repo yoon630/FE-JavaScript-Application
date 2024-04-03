@@ -82,16 +82,16 @@ let user = {
 ## 6번 배열에 아기사자만 남기기(★★★★★)
 
 ```js
-const arr = [{ part: "fe", name: "홍현", age: 26},
-  { part: "fe", name: "애리", age: 24},
-  { part: "fe", name: "나연", age: 23},
+const arr = [{ part: "fe", name: "새연", age: 22},
+  { part: "fe", name: "명묵", age: 25},
+  { part: "fe", name: "지후", age: 23},
   { part: "staff", name: "나현", age: 24}]
 ```
 
 오늘 배웠던 배열 메소드와 고차함수를 활용하여 풀어 주세요
 요구사항은
 1. staff 만 배열에서 지우기
-2. 아기사자만 남은 배열에서 id순으로 내림차순 정렬하기
+2. 아기사자만 남은 배열에서 age 순으로 내림차순 정렬하기
 3. part를 key로 가지는 value들만 대문자로 바꾸기
 
 - 힌트1: 1번은 `filter`를, 2번을 `sort`를, 3번은 `map`을 사용합니다.
