@@ -6,7 +6,10 @@ let user = {
 };
 
 // JSon형태
-const json = JSON.stringify(user);
+let json = JSON.stringify(user);
+// console.log(json);
 
 //다시 객체로 변환
-const parsed = JSON.parsed(json);
+let parsed = JSON.parse(json);
+
+console.log(parsed);
